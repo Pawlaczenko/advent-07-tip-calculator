@@ -1,0 +1,48 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 30px;
+
+    &:first-child{
+        border-right: 2px solid #DEDEDE;
+    }
+}
+
+.input {
+    text-align: center;
+    font-size: 3.875rem;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    background: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px dotted #DEDEDE;
+    width: 100%;
+    margin: 0 15px 15px 15px;
+
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    -moz-appearance: textfield;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
+
+.label {
+    text-align: center;
+    width: 100%;
+}
+
+.dollar {
+    background-image: url('../../assets/images/dollar.svg');
+}
+
+.people {
+    background-image: url('../../assets/images/people.svg');
+    text-align: right;
+}

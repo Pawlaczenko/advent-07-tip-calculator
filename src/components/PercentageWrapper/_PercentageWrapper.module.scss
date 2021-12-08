@@ -1,0 +1,13 @@
+.wrapper {
+    display: block;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+
+    padding: 20px 0;
+
+    background-color: #EEEEEE;
+    border-bottom: 2px solid rgb(212, 212, 212);
+    border-top: 2px solid rgb(212, 212, 212);
+}

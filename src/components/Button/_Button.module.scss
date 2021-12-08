@@ -1,0 +1,22 @@
+.button {
+    background: #ED7861;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    padding: 18px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    padding: 20px 100px;
+    cursor: pointer;
+    margin: 30px 35px 30px auto;
+    border: 5px solid #ED7861;
+
+    &:hover {
+        background-color: white;
+        color: #ED7861;
+    }
+}
